@@ -1,0 +1,138 @@
+/* ===== CHIC MONO LUXE ===== */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@300;400;500&display=swap');
+
+:root{
+  --bg:#111214;
+  --panel:#17181c;
+  --line:#2a2b31;
+  --soft:#a7a7a7;
+  --white:#ffffff;
+}
+
+/* ===== BASE ===== */
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+body{
+  background: radial-gradient(circle at top left,#1b1c22, #0f1012 60%);
+  color:var(--white);
+  font-family: "Inter", sans-serif;
+  padding:50px 25px;
+}
+
+/* ===== TITLE (fashion magazine vibe) ===== */
+h1{
+  font-family:"Playfair Display", serif;
+  text-align:center;
+  font-size:38px;
+  margin-bottom:35px;
+  letter-spacing:1px;
+}
+
+/* ===== MAIN CARD ===== */
+form{
+  background:var(--panel);
+  border-radius:22px;
+  padding:30px;
+  overflow-x:auto;
+  border:1px solid var(--line);
+
+  box-shadow:
+    0 25px 60px rgba(0,0,0,0.6);
+}
+
+/* glossy top reflection */
+form::before{
+  content:"";
+  position:absolute;
+  left:0;
+  right:0;
+  height:120px;
+  border-radius:22px 22px 0 0;
+  background:linear-gradient(to bottom, rgba(255,255,255,0.08), transparent);
+  pointer-events:none;
+}
+
+/* ===== TABLE ===== */
+table{
+  width:100%;
+  border-collapse:collapse;
+  min-width:1200px;
+}
+
+/* ===== HEADERS ===== */
+thead th{
+  font-weight:500;
+  font-size:12px;
+  text-transform:uppercase;
+  letter-spacing:1px;
+  padding:14px 8px;
+  border-bottom:1px solid var(--line);
+  background:#1e1f25;
+}
+
+/* subject column */
+tbody th{
+  font-weight:500;
+  background:#191a20;
+  border-right:1px solid var(--line);
+}
+
+/* ===== CELLS ===== */
+td, th{
+  padding:12px 8px;
+  text-align:center;
+  font-size:13px;
+}
+
+/* row divider */
+tbody tr{
+  border-bottom:1px solid #202127;
+}
+
+/* ===== HOVER = chic energy ===== */
+tbody tr:hover{
+  background:#22232a;
+  transition:0.15s ease;
+}
+
+/* ===== INPUTS ===== */
+input[type="number"],
+select{
+  width:100%;
+  padding:8px 10px;
+  border-radius:12px;
+  border:1px solid #2d2f36;
+  background:#14151a;
+  color:white;
+  font-size:12px;
+  outline:none;
+}
+
+/* focus = editorial white highlight */
+input:focus,
+select:focus{
+  border-color:white;
+  box-shadow:0 0 0 3px rgba(255,255,255,0.15);
+}
+
+/* ===== SUBTOTAL ===== */
+tr:last-child th{
+  font-weight:600;
+  letter-spacing:1px;
+}
+
+/* ===== SCROLLBAR ===== */
+::-webkit-scrollbar{ height:10px; }
+::-webkit-scrollbar-thumb{
+  background:#2a2b31;
+  border-radius:20px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media(max-width:768px){
+  h1{font-size:24px;}
+}

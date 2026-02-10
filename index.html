@@ -3,25 +3,546 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Newton Metrics</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>Newton Metrics</h1>
     <form>
         <table>
             <thead>
                 <tr>
-                    <th>Description</th>
-                    <th>Mathematics</th>
-                    <th>Robotics</th>
-                    <th>WAP</th>
-                    <th>PSP</th>
+                    <th rowspan="2">Subject</th>
+                    <th colspan="4">Mathematics</th>
+                    <th colspan="4">Robotics</th>
+                    <th colspan="4">WAP</th>
+                    <th colspan="4">PSP</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
+                    <td>Description</td>
                     <td>weightage</td>
-                    <td>marks</td>
+                    <td>marks obtained</td>
+                    <td>max marks</td>
                     <td>result</td>
+                    <td>weightage</td>
+                    <td>marks obtained</td>
+                    <td>max marks</td>
+                    <td>result</td>
+                    <td>weightage</td>
+                    <td>marks obtained</td>
+                    <td>max marks</td>
+                    <td>result</td>
+                    <td>weightage</td>
+                    <td>marks obtained</td>
+                    <td>max marks</td>
+                    <td>result</td>
+                </tr>
+                <tr>
+                    <th>Contest 1</th>
+                    <td><select>
+                        <option value="5">5%</option>
+                        <option value="10">10%</option>
+                        <option value="15">15%</option>
+                        <option value="20">20%</option>
+                        <option value="25">25%</option>
+                        <option value="30">30%</option>
+                        <option value="35">35%</option>
+                        <option value="40">40%</option>
+                    </select></td>
+                    <td><input type=number min="0" max="120"></td>
+                    <td><input type=number min="0" max="200"></td>
+                    <td></td>
+                                        <td><select>
+                        <option value="5">5%</option>
+                        <option value="10">10%</option>
+                        <option value="15">15%</option>
+                        <option value="20">20%</option>
+                        <option value="25">25%</option>
+                        <option value="30">30%</option>
+                        <option value="35">35%</option>
+                        <option value="40">40%</option>
+                    </select></td>
+                    <td><input type=number min="0" max="120"></td>
+                    <td><input type=number min="0" max="200"></td>
+                    <td></td>
+                                        <td><select>
+                        <option value="5">5%</option>
+                        <option value="10">10%</option>
+                        <option value="15">15%</option>
+                        <option value="20">20%</option>
+                        <option value="25">25%</option>
+                        <option value="30">30%</option>
+                        <option value="35">35%</option>
+                        <option value="40">40%</option>
+                    </select></td>
+                    <td><input type=number min="0" max="120"></td>
+                    <td><input type=number min="0" max="200"></td>
+                    <td></td>
+                                        <td><select>
+                        <option value="5">5%</option>
+                        <option value="10">10%</option>
+                        <option value="15">15%</option>
+                        <option value="20">20%</option>
+                        <option value="25">25%</option>
+                        <option value="30">30%</option>
+                        <option value="35">35%</option>
+                        <option value="40">40%</option>
+                    </select></td>
+                    <td><input type=number min="0" max="120"></td>
+                    <td><input type=number min="0" max="200"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Contest 2</th>
+                    <td><select>
+                        <option value="5">5%</option>
+                        <option value="10">10%</option>
+                        <option value="15">15%</option>
+                        <option value="20">20%</option>
+                        <option value="25">25%</option>
+                        <option value="30">30%</option>
+                        <option value="35">35%</option>
+                        <option value="40">40%</option>
+                    </select></td>
+                    <td><input type=number min="0" max="120"></td>
+                    <td><input type=number min="0" max="200"></td>
+                    <td></td>
+                                        <td><select>
+                        <option value="5">5%</option>
+                        <option value="10">10%</option>
+                        <option value="15">15%</option>
+                        <option value="20">20%</option>
+                        <option value="25">25%</option>
+                        <option value="30">30%</option>
+                        <option value="35">35%</option>
+                        <option value="40">40%</option>
+                    </select></td>
+                    <td><input type=number min="0" max="120"></td>
+                    <td><input type=number min="0" max="200"></td>
+                    <td></td>
+                                        <td><select>
+                        <option value="5">5%</option>
+                        <option value="10">10%</option>
+                        <option value="15">15%</option>
+                        <option value="20">20%</option>
+                        <option value="25">25%</option>
+                        <option value="30">30%</option>
+                        <option value="35">35%</option>
+                        <option value="40">40%</option>
+                    </select></td>
+                    <td><input type=number min="0" max="120"></td>
+                    <td><input type=number min="0" max="200"></td>
+                    <td></td>
+                                        <td><select>
+                        <option value="5">5%</option>
+                        <option value="10">10%</option>
+                        <option value="15">15%</option>
+                        <option value="20">20%</option>
+                        <option value="25">25%</option>
+                        <option value="30">30%</option>
+                        <option value="35">35%</option>
+                        <option value="40">40%</option>
+                    </select></td>
+                    <td><input type=number min="0" max="120"></td>
+                    <td><input type=number min="0" max="200"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Contest 3</th>
+                    <td><select>
+                        <option value="5">5%</option>
+                        <option value="10">10%</option>
+                        <option value="15">15%</option>
+                        <option value="20">20%</option>
+                        <option value="25">25%</option>
+                        <option value="30">30%</option>
+                        <option value="35">35%</option>
+                        <option value="40">40%</option>
+                    </select></td>
+                    <td><input type=number min="0" max="120"></td>
+                    <td><input type=number min="0" max="200"></td>
+                    <td></td>
+                                        <td><select>
+                        <option value="5">5%</option>
+                        <option value="10">10%</option>
+                        <option value="15">15%</option>
+                        <option value="20">20%</option>
+                        <option value="25">25%</option>
+                        <option value="30">30%</option>
+                        <option value="35">35%</option>
+                        <option value="40">40%</option>
+                    </select></td>
+                    <td><input type=number min="0" max="120"></td>
+                    <td><input type=number min="0" max="200"></td>
+                    <td></td>
+                                        <td><select>
+                        <option value="5">5%</option>
+                        <option value="10">10%</option>
+                        <option value="15">15%</option>
+                        <option value="20">20%</option>
+                        <option value="25">25%</option>
+                        <option value="30">30%</option>
+                        <option value="35">35%</option>
+                        <option value="40">40%</option>
+                    </select></td>
+                    <td><input type=number min="0" max="120"></td>
+                    <td><input type=number min="0" max="200"></td>
+                    <td></td>
+                                        <td><select>
+                        <option value="5">5%</option>
+                        <option value="10">10%</option>
+                        <option value="15">15%</option>
+                        <option value="20">20%</option>
+                        <option value="25">25%</option>
+                        <option value="30">30%</option>
+                        <option value="35">35%</option>
+                        <option value="40">40%</option>
+                    </select></td>
+                    <td><input type=number min="0" max="120"></td>
+                    <td><input type=number min="0" max="200"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>IA - 1</th>
+                    <td><select>
+                        <option value="5">5%</option>
+                        <option value="10">10%</option>
+                        <option value="15">15%</option>
+                        <option value="20">20%</option>
+                        <option value="25">25%</option>
+                        <option value="30">30%</option>
+                        <option value="35">35%</option>
+                        <option value="40">40%</option>
+                    </select></td>
+                    <td><input type=number min="0" max="120"></td>
+                    <td><input type=number min="0" max="200"></td>
+                    <td></td>
+                                        <td><select>
+                        <option value="5">5%</option>
+                        <option value="10">10%</option>
+                        <option value="15">15%</option>
+                        <option value="20">20%</option>
+                        <option value="25">25%</option>
+                        <option value="30">30%</option>
+                        <option value="35">35%</option>
+                        <option value="40">40%</option>
+                    </select></td>
+                    <td><input type=number min="0" max="120"></td>
+                    <td><input type=number min="0" max="200"></td>
+                    <td></td>
+                                        <td><select>
+                        <option value="5">5%</option>
+                        <option value="10">10%</option>
+                        <option value="15">15%</option>
+                        <option value="20">20%</option>
+                        <option value="25">25%</option>
+                        <option value="30">30%</option>
+                        <option value="35">35%</option>
+                        <option value="40">40%</option>
+                    </select></td>
+                    <td><input type=number min="0" max="120"></td>
+                    <td><input type=number min="0" max="200"></td>
+                    <td></td>
+                                        <td><select>
+                        <option value="5">5%</option>
+                        <option value="10">10%</option>
+                        <option value="15">15%</option>
+                        <option value="20">20%</option>
+                        <option value="25">25%</option>
+                        <option value="30">30%</option>
+                        <option value="35">35%</option>
+                        <option value="40">40%</option>
+                    </select></td>
+                    <td><input type=number min="0" max="120"></td>
+                    <td><input type=number min="0" max="200"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>IA - 2</th>
+                    <td><select>
+                        <option value="5">5%</option>
+                        <option value="10">10%</option>
+                        <option value="15">15%</option>
+                        <option value="20">20%</option>
+                        <option value="25">25%</option>
+                        <option value="30">30%</option>
+                        <option value="35">35%</option>
+                        <option value="40">40%</option>
+                    </select></td>
+                    <td><input type=number min="0" max="120"></td>
+                    <td><input type=number min="0" max="200"></td>
+                    <td></td>
+                                        <td><select>
+                        <option value="5">5%</option>
+                        <option value="10">10%</option>
+                        <option value="15">15%</option>
+                        <option value="20">20%</option>
+                        <option value="25">25%</option>
+                        <option value="30">30%</option>
+                        <option value="35">35%</option>
+                        <option value="40">40%</option>
+                    </select></td>
+                    <td><input type=number min="0" max="120"></td>
+                    <td><input type=number min="0" max="200"></td>
+                    <td></td>
+                                        <td><select>
+                        <option value="5">5%</option>
+                        <option value="10">10%</option>
+                        <option value="15">15%</option>
+                        <option value="20">20%</option>
+                        <option value="25">25%</option>
+                        <option value="30">30%</option>
+                        <option value="35">35%</option>
+                        <option value="40">40%</option>
+                    </select></td>
+                    <td><input type=number min="0" max="120"></td>
+                    <td><input type=number min="0" max="200"></td>
+                    <td></td>
+                                        <td><select>
+                        <option value="5">5%</option>
+                        <option value="10">10%</option>
+                        <option value="15">15%</option>
+                        <option value="20">20%</option>
+                        <option value="25">25%</option>
+                        <option value="30">30%</option>
+                        <option value="35">35%</option>
+                        <option value="40">40%</option>
+                    </select></td>
+                    <td><input type=number min="0" max="120"></td>
+                    <td><input type=number min="0" max="200"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Project 1</th>
+                    <td><select>
+                        <option value="5">5%</option>
+                        <option value="10">10%</option>
+                        <option value="15">15%</option>
+                        <option value="20">20%</option>
+                        <option value="25">25%</option>
+                        <option value="30">30%</option>
+                        <option value="35">35%</option>
+                        <option value="40">40%</option>
+                    </select></td>
+                    <td><input type=number min="0" max="120"></td>
+                    <td><input type=number min="0" max="200"></td>
+                    <td></td>
+                                        <td><select>
+                        <option value="5">5%</option>
+                        <option value="10">10%</option>
+                        <option value="15">15%</option>
+                        <option value="20">20%</option>
+                        <option value="25">25%</option>
+                        <option value="30">30%</option>
+                        <option value="35">35%</option>
+                        <option value="40">40%</option>
+                    </select></td>
+                    <td><input type=number min="0" max="120"></td>
+                    <td><input type=number min="0" max="200"></td>
+                    <td></td>
+                                        <td><select>
+                        <option value="5">5%</option>
+                        <option value="10">10%</option>
+                        <option value="15">15%</option>
+                        <option value="20">20%</option>
+                        <option value="25">25%</option>
+                        <option value="30">30%</option>
+                        <option value="35">35%</option>
+                        <option value="40">40%</option>
+                    </select></td>
+                    <td><input type=number min="0" max="120"></td>
+                    <td><input type=number min="0" max="200"></td>
+                    <td></td>
+                                        <td><select>
+                        <option value="5">5%</option>
+                        <option value="10">10%</option>
+                        <option value="15">15%</option>
+                        <option value="20">20%</option>
+                        <option value="25">25%</option>
+                        <option value="30">30%</option>
+                        <option value="35">35%</option>
+                        <option value="40">40%</option>
+                    </select></td>
+                    <td><input type=number min="0" max="120"></td>
+                    <td><input type=number min="0" max="200"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Project 2</th>
+                    <td><select>
+                        <option value="5">5%</option>
+                        <option value="10">10%</option>
+                        <option value="15">15%</option>
+                        <option value="20">20%</option>
+                        <option value="25">25%</option>
+                        <option value="30">30%</option>
+                        <option value="35">35%</option>
+                        <option value="40">40%</option>
+                    </select></td>
+                    <td><input type=number min="0" max="120"></td>
+                    <td><input type=number min="0" max="200"></td>
+                    <td></td>
+                                        <td><select>
+                        <option value="5">5%</option>
+                        <option value="10">10%</option>
+                        <option value="15">15%</option>
+                        <option value="20">20%</option>
+                        <option value="25">25%</option>
+                        <option value="30">30%</option>
+                        <option value="35">35%</option>
+                        <option value="40">40%</option>
+                    </select></td>
+                    <td><input type=number min="0" max="120"></td>
+                    <td><input type=number min="0" max="200"></td>
+                    <td></td>
+                                        <td><select>
+                        <option value="5">5%</option>
+                        <option value="10">10%</option>
+                        <option value="15">15%</option>
+                        <option value="20">20%</option>
+                        <option value="25">25%</option>
+                        <option value="30">30%</option>
+                        <option value="35">35%</option>
+                        <option value="40">40%</option>
+                    </select></td>
+                    <td><input type=number min="0" max="120"></td>
+                    <td><input type=number min="0" max="200"></td>
+                    <td></td>
+                                        <td><select>
+                        <option value="5">5%</option>
+                        <option value="10">10%</option>
+                        <option value="15">15%</option>
+                        <option value="20">20%</option>
+                        <option value="25">25%</option>
+                        <option value="30">30%</option>
+                        <option value="35">35%</option>
+                        <option value="40">40%</option>
+                    </select></td>
+                    <td><input type=number min="0" max="120"></td>
+                    <td><input type=number min="0" max="200"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>End Sem</th>
+                    <td><select>
+                        <option value="5">5%</option>
+                        <option value="10">10%</option>
+                        <option value="15">15%</option>
+                        <option value="20">20%</option>
+                        <option value="25">25%</option>
+                        <option value="30">30%</option>
+                        <option value="35">35%</option>
+                        <option value="40">40%</option>
+                    </select></td>
+                    <td><input type=number min="0" max="120"></td>
+                    <td><input type=number min="0" max="200"></td>
+                    <td></td>
+                                        <td><select>
+                        <option value="5">5%</option>
+                        <option value="10">10%</option>
+                        <option value="15">15%</option>
+                        <option value="20">20%</option>
+                        <option value="25">25%</option>
+                        <option value="30">30%</option>
+                        <option value="35">35%</option>
+                        <option value="40">40%</option>
+                    </select></td>
+                    <td><input type=number min="0" max="120"></td>
+                    <td><input type=number min="0" max="200"></td>
+                    <td></td>
+                                        <td><select>
+                        <option value="5">5%</option>
+                        <option value="10">10%</option>
+                        <option value="15">15%</option>
+                        <option value="20">20%</option>
+                        <option value="25">25%</option>
+                        <option value="30">30%</option>
+                        <option value="35">35%</option>
+                        <option value="40">40%</option>
+                    </select></td>
+                    <td><input type=number min="0" max="120"></td>
+                    <td><input type=number min="0" max="200"></td>
+                    <td></td>
+                                        <td><select>
+                        <option value="5">5%</option>
+                        <option value="10">10%</option>
+                        <option value="15">15%</option>
+                        <option value="20">20%</option>
+                        <option value="25">25%</option>
+                        <option value="30">30%</option>
+                        <option value="35">35%</option>
+                        <option value="40">40%</option>
+                    </select></td>
+                    <td><input type=number min="0" max="120"></td>
+                    <td><input type=number min="0" max="200"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Class participation</th>
+                    <td><select>
+                        <option value="5">5%</option>
+                        <option value="10">10%</option>
+                        <option value="15">15%</option>
+                        <option value="20">20%</option>
+                        <option value="25">25%</option>
+                        <option value="30">30%</option>
+                        <option value="35">35%</option>
+                        <option value="40">40%</option>
+                    </select></td>
+                    <td><input type=number min="0" max="120"></td>
+                    <td><input type=number min="0" max="200"></td>
+                    <td></td>
+                                        <td><select>
+                        <option value="5">5%</option>
+                        <option value="10">10%</option>
+                        <option value="15">15%</option>
+                        <option value="20">20%</option>
+                        <option value="25">25%</option>
+                        <option value="30">30%</option>
+                        <option value="35">35%</option>
+                        <option value="40">40%</option>
+                    </select></td>
+                    <td><input type=number min="0" max="120"></td>
+                    <td><input type=number min="0" max="200"></td>
+                    <td></td>
+                                        <td><select>
+                        <option value="5">5%</option>
+                        <option value="10">10%</option>
+                        <option value="15">15%</option>
+                        <option value="20">20%</option>
+                        <option value="25">25%</option>
+                        <option value="30">30%</option>
+                        <option value="35">35%</option>
+                        <option value="40">40%</option>
+                    </select></td>
+                    <td><input type=number min="0" max="120"></td>
+                    <td><input type=number min="0" max="200"></td>
+                    <td></td>
+                                        <td><select>
+                        <option value="5">5%</option>
+                        <option value="10">10%</option>
+                        <option value="15">15%</option>
+                        <option value="20">20%</option>
+                        <option value="25">25%</option>
+                        <option value="30">30%</option>
+                        <option value="35">35%</option>
+                        <option value="40">40%</option>
+                    </select></td>
+                    <td><input type=number min="0" max="120"></td>
+                    <td><input type=number min="0" max="200"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Subtotal :</th>
+                    <td colspan="4"></td>
+                    <td colspan="4"></td>
+                    <td colspan="4"></td>
+                    <td colspan="4"></td>
+                </tr>
+                <tr>
+                    
                 </tr>
             </tbody>
         </table>
