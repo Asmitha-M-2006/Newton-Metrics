@@ -156,3 +156,15 @@ tr:last-child th {
   h1 { font-size: 20px; }
   th, td { font-size: 12px; padding: 8px; }
 }
+
+/* ===== SUBJECT DIVIDERS ===== */
+/* adds a strong line after each group of 4 columns */
+
+td:nth-child(5),
+th:nth-child(5),
+td:nth-child(9),
+th:nth-child(9),
+td:nth-child(13),
+th:nth-child(13) {
+  border-right: 1.5px solid rgba(255, 255, 255, 0.25);
+}
