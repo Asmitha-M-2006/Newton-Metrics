@@ -168,3 +168,30 @@ td:nth-child(13),
 th:nth-child(13) {
   border-right: 1.5px solid rgba(255, 255, 255, 0.25);
 }
+
+/* ===== extend divider through subtotal row ===== */
+.subt-divider {
+  border-right: 1.5px solid rgba(255, 255, 255, 0.25);
+}
+
+/* ===== line before Mathematics ===== */
+td:nth-child(2),
+th:nth-child(2) {
+  border-left: 1.5px solid rgba(255, 255, 255, 0.25);
+}
+
+/* ===== line at very end (after PSP) ===== */
+td:last-child,
+th:last-child {
+  border-right: 1.5px solid rgba(255, 255, 255, 0.25);
+}
+
+/* ===== line at the very start of table (before Description) ===== */
+td:first-child,
+th:first-child {
+  border-left: 2px solid rgba(255, 255, 255, 0.25);
+}
+
+.hl{
+    color:aqua;
+}
