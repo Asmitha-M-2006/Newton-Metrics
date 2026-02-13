@@ -195,3 +195,31 @@ th:first-child {
 .hl{
     color:aqua;
 }
+
+.total{
+  text-align: center;
+  font-weight: bolder;
+  font-size: x-large;
+  padding: 40px 0px;
+}
+
+.predicted-data{
+  display: flex;
+  justify-content: space-between;
+}
+
+.pre-cpga{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  margin: 30px 60px;
+}
+
+.overall-remarks{
+  margin: 0px 900px 0px 60px;
+}
